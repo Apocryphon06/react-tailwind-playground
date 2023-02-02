@@ -1,7 +1,12 @@
 import React from "react";
+import Todo from "./components/Todo";
 
 function App() {
-  return <div className="text-3xl font-bold underline">react tailwind </div>;
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
 }
 
 export default App;
